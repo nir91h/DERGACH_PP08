@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="background-color: #8fc4b7">
+    <section class="h-100 h-custom">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close">
+            <span class="icofont-close js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+      <nav class="site-nav">
+        <div class="container">
+          <div class="site-navigation">
+            <a href="index.html" class="logo m-0">Тур</a>
+
+            <ul
+              class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right"
+            >
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="about.html">О нас</a></li>
+              <li class="active"><a href="reg.html">Войти</a></li>
+            </ul>
+
+            <a
+              href="#"
+              class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
+              data-toggle="collapse"
+              data-target="#main-navbar"
+            >
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-lg-8 col-xl-6">
+            <div class="card rounded-3">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img3.webp"
+                class="w-100"
+                style="
+                  border-top-left-radius: 0.3rem;
+                  border-top-right-radius: 0.3rem;
+                "
+                alt="Sample photo"
+              />
+              <div class="card-body p-4 p-md-5">
+                <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Авторизация</h3>
+
+                <form class="px-md-2" action="acount.html">
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input
+                      type="email"
+                      id="form3Example1q"
+                      class="form-control"
+                      required
+                    />
+                    <label class="form-label" for="form3Example1q">Почта</label>
+                  </div>
+
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input
+                      type="password"
+                      id="form3Example1q"
+                      class="form-control"
+                      required
+                    />
+                    <label class="form-label" for="form3Example1q"
+                      >Пароль</label
+                    >
+                  </div>
+
+                  <button
+                    type="submit"
+                    data-mdb-button-init
+                    data-mdb-ripple-init
+                    class="btn btn-success btn-lg mb-1"
+                  >
+                    Зарегистрироваться
+                  </button>
+                  <p>Нет аккаунта? <a href="reg.html">Регистрация</a></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
